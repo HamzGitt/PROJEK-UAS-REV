@@ -1,5 +1,4 @@
-# PROJEK UAS REV
-Persami Misterius
+# Persami Misterius
 
 Persami Misterius adalah sebuah game 3D adventure-puzzle yang memadukan unsur
 edukasi kepramukaan dengan atmosfer misteri dan ketegangan. Pemain akan
