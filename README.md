@@ -32,3 +32,27 @@ Assets/
 ├── Scenes/           # Main Menu & Level Gameplay
 ├── Materials/        # Texture & Visual Styling
 └── Docs/             # GDD, TDD, & Laporan Akhir
+
+## 🟢 Fase 2: Prototyping & Core Mechanics
+
+Pada fase ini, kami fokus pada pembangunan infrastruktur dasar game dan sistem pergerakan pemain.
+
+### 📂 Struktur Proyek
+Proyek diorganisir menggunakan standar Unity untuk skalabilitas:
+- `Assets/_Scripts`: Berisi seluruh logika C#.
+- `Assets/Prefabs`: Objek yang telah dikonfigurasi (Player, Items).
+- `Assets/Scenes`: Scene 'Greybox' untuk pengujian mekanik.
+
+### 🏃 Mekanik Karakter (Player Controller)
+Kami telah mengimplementasikan sistem kontrol 3D:
+- **Movement:** Gerakan berbasis WASD menggunakan `CharacterController`.
+- **Look System:** Rotasi kamera 360 derajat yang mengikuti gerakan Mouse.
+- **Physics:** Implementasi gravitasi dasar agar pemain dapat berinteraksi dengan permukaan tanah.
+
+### 🏗️ Arsitektur PBO (Inheritance)
+Kami memulai implementasi **Inheritance** dengan membuat:
+- `BasePlayer.cs`: Logika dasar status pemain (darah/suhu).
+- `Interactable.cs`: Kelas induk untuk semua objek yang bisa ditekan tombol 'E'.
+
+### 📺 Demo Fase 2
+Link Video: [Nama Link Video YouTube Anda]
